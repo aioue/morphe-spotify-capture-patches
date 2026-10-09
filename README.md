@@ -50,6 +50,16 @@ This is **not** a Premium unlock, ad blocker, or UI mod. It mirrors the intent o
 
 Ported from ReVanced `spotify/disable-capture-restriction` ([PR #2095](https://github.com/ReVanced/revanced-patches-template/pull/2095)), so a ReVanced-patched Spotify would behave identically — the limitation is the approach, not the toolchain.
 
+## 🩹 Patches list
+
+<!-- PATCHES_START EXPANDED -->
+
+<!-- Do not modify this section by hand. The patch list is generated when release.yml creates a new release.
+
+     If you wish for the patches list to be collapsed, then remove the word 'EXPANDED' from the comment tag above. -->
+
+<!-- PATCHES_END -->
+
 ## Install (Morphe Manager)
 
 1. Install [Morphe Manager](https://github.com/MorpheApp/morphe-manager).

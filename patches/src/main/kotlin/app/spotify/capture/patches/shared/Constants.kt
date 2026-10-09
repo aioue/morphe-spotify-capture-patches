@@ -16,7 +16,9 @@ object Constants {
             AppTarget(
                 version = "9.1.88.2204",
                 versionCode = 146_816_068,
-                description = "Installed on Pixel 8a; RLJDSP capture QA pending",
+                // Capture QA done 2026-10-09: patch applies but RLJDSP capture stays silent —
+                // playback is AAudio-only (liborbit-jni-spotify.so sets capture policy natively).
+                description = "Patch verified applying on Pixel 8a (Android 17); capture remains silent, see README",
             ),
             AppTarget(
                 version = null,
