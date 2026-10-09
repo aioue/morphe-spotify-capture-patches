@@ -53,10 +53,22 @@ Ported from ReVanced `spotify/disable-capture-restriction` ([PR #2095](https://g
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
+> **[v1.0.0](https://github.com/aioue/morphe-spotify-capture-patches/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
+<details open>
+<summary>📦 Spotify&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
 
-<!-- Do not modify this section by hand. The patch list is generated when release.yml creates a new release.
+**🎯 Supported versions:**
 
-     If you wish for the patches list to be collapsed, then remove the word 'EXPANDED' from the comment tag above. -->
+| 9.1.88.2204 |
+| :---: |
+| Patch verified applying on Pixel 8a (Android 17); capture remains silent, see README |  |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Allow internal audio capture (RootlessJamesDSP)](#allow-internal-audio-capture-rootlessjamesdsp) | Sets allowAudioPlaybackCapture and ALLOW_CAPTURE_BY_ALL so RootlessJamesDSP can capture Spotify playback. Does not unlock Premium or remove ads. See https://github.com/timschneeb/RootlessJamesDSP#spotify-support-patch |  |
+
+</details>
 
 <!-- PATCHES_END -->
 
