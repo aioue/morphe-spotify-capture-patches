@@ -1,3 +1,13 @@
+## 1.0.0-dev.1 (2026-10-09)
+
+### 🐛 Bug Fixes
+
+* add patches-list markers to README and refresh target note ([0da55d1](https://github.com/aioue/morphe-spotify-capture-patches/commit/0da55d1adbcd548e43ef30ad4bc3cd5c4d75bb3d))
+
+### ✨ New Features
+
+* Spotify capture patch bundle for Morphe (RootlessJamesDSP) ([6412766](https://github.com/aioue/morphe-spotify-capture-patches/commit/6412766f9955799d7e1063725d087dacb429f2ef)), closes [#2095](https://github.com/aioue/morphe-spotify-capture-patches/issues/2095)
+
 # Changelog
 
 All notable changes to this patch bundle are documented here.

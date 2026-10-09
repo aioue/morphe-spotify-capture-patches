@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.1",
+  "version": "1.0.0-dev.1",
   "patches": [
     {
       "name": "Allow internal audio capture (RootlessJamesDSP)",
@@ -29,7 +29,7 @@
               },
               "isExperimental": false,
               "minSdk": null,
-              "description": "Installed on Pixel 8a; RLJDSP capture QA pending"
+              "description": "Patch verified applying on Pixel 8a (Android 17); capture remains silent, see README"
             },
             {
               "version": null,
