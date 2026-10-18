@@ -18,6 +18,14 @@ Minimal [Morphe](https://github.com/MorpheApp/morphe-manager) patch bundle for *
 
 This is **not** a Premium unlock, ad blocker, or UI mod. It mirrors the intent of RLJDSP's documented ReVanced workaround ("Remove screen capture restriction" / Spotify `disable-capture-restriction`): relax **capture policy** only.
 
+### Add this patch source in Morphe
+
+On your Android device, open:
+
+**[Add Spotify capture patches to Morphe](https://morphe.software/add-source?github=aioue/morphe-spotify-capture-patches&name=Spotify%20capture%20(RLJDSP))**
+
+(Morphe Manager → **Sources** → **+** → **Remote** also accepts `github.com/aioue/morphe-spotify-capture-patches`.)
+
 **License:** GPL-3.0 (see [LICENSE](LICENSE)). Patch logic derives from [ReVanced PR #2095](https://github.com/ReVanced/revanced-patches-template/pull/2095) (Tim Schneeberger).
 
 ## Disclaimer
@@ -75,8 +83,8 @@ Ported from ReVanced `spotify/disable-capture-restriction` ([PR #2095](https://g
 ## Install (Morphe Manager)
 
 1. Install [Morphe Manager](https://github.com/MorpheApp/morphe-manager).
-2. Add this patch source: `https://github.com/aioue/morphe-spotify-capture-patches`
-   (or grab a release **`.mpp`** from GitHub Releases and add it as a local source).
+2. Add this patch source with the [add-source link](#add-this-patch-source-in-morphe) on your phone, or paste `github.com/aioue/morphe-spotify-capture-patches` under **Sources** → **+** → **Remote**.
+   Alternatively, grab a release **`.mpp`** from [GitHub Releases](https://github.com/aioue/morphe-spotify-capture-patches/releases) and add it as a local source.
 3. **Other apps** → select your Spotify APK from storage.
 4. Enable only **Allow internal audio capture (RootlessJamesDSP)**.
 5. Patch and install. **Uninstall** the Play Store Spotify first (signature conflict).
